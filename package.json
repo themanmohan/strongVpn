@@ -1,0 +1,30 @@
+{
+    "name": "server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "ENV=DEV nodemon ./bin/www"
+    },
+    "dependencies": {
+        "@hapi/joi": "^17.1.1",
+        "@sendgrid/mail": "^7.4.2",
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "handlebars": "^4.7.6",
+        "http-errors": "^1.8.0",
+        "jade": "~1.11.0",
+        "joigoose": "7",
+        "md5": "^2.3.0",
+        "moment": "^2.29.1",
+        "mongoose": "^5.11.8",
+        "mongoose-paginate-v2": "^1.3.12",
+        "morgan": "~1.9.1"
+    },
+    "devDependencies": {
+        "@sonhoai272/listview": "^1.1.9",
+        "nodemon": "^2.0.7"
+    }
+}
